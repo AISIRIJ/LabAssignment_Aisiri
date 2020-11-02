@@ -19,7 +19,7 @@ public class Consonants {
 		for(int i=0;i<array.length;i++)
 		{
 			//--------check for vowels------------
-			if((array[i]!='a' && array[i]!='e'	&& array[i]!='i' && array[i]!='0' && array[i]!='u' )) {
+			if((array[i]!='a' && array[i]!='e'&& array[i]!='i' && array[i]!='0' && array[i]!='u' )) {
 				if(array[i]=='z')
 					array[i]='b';
 				else  {
